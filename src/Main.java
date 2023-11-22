@@ -2,39 +2,46 @@ import com.pacificcar.Car;
 import com.pacificcar.Ford;
 import com.pacificcar.Holden;
 import com.pacificcar.Mitsubishi;
+import com.randd.ElectricCar;
 
 public class Main {
     public static void main(String[] args) {
-        Car car = new Car(8, "Base car");
 
-        System.out.println(car.startEngine());
+        /* PACIFIC CAR CLASS TEST PASSED
 
-        System.out.println(car.accelerate());
+            Car car = new Car(8, "Base car");
 
-        System.out.println(car.brake());
+            System.out.println(car.startEngine());
 
-        Car mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
+            System.out.println(car.accelerate());
 
-        System.out.println(mitsubishi.startEngine());
+            System.out.println(car.brake());
 
-        System.out.println(mitsubishi.accelerate());
+            Car mitsubishi = new Mitsubishi(6, "Outlander VRX 4WD");
 
-        System.out.println(mitsubishi.brake());
+            System.out.println(mitsubishi.startEngine());
 
-        Car ford = new Ford(6, "Ford Falcon");
+            System.out.println(mitsubishi.accelerate());
 
-        System.out.println(ford.startEngine());
+            System.out.println(mitsubishi.brake());
 
-        System.out.println(ford.accelerate());
+            Car ford = new Ford(6, "Ford Falcon");
 
-        System.out.println(ford.brake());
+            System.out.println(ford.startEngine());
 
-        Car holden = new Holden(6, "Holden Commodore");
+            System.out.println(ford.accelerate());
 
-        System.out.println(holden.startEngine());
+            System.out.println(ford.brake());
 
-        System.out.println(holden.accelerate());
+            Car holden = new Holden(6, "Holden Commodore");
 
-        System.out.println(holden.brake());
+            System.out.println(holden.startEngine());
+
+            System.out.println(holden.accelerate());
+
+            System.out.println(holden.brake());
+
+         */
+
     }
 }
